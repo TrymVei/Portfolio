@@ -12,7 +12,8 @@ const config: Config = {
       darkPurple: "#291C3A",
       russianViolet: "#331C52",
       darkViolet: "#8121d0",
-      languidLavender: "#dccfed",
+      languidLavender: "#DCCFED",
+      LightGrayishCyan: "#E1EBED",
     },
     extend: {
       backgroundImage: {
