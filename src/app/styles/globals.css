@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Kode Mono";
+  src: url("/fonts/kode-mono/KodeMono-VariableFont_wght.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/kode-mono/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 41, 28, 58;
+  --background-end-rgb: 129, 33, 208;
+  --text-color: #fff;
+
+  --dark-purple: #291c3a;
+  --russian-violet: #331c52;
+  --dark-violet: #8121d0;
+  --languid-lavender: #dccfed;
+  /* Fonts */
+  --Kode-mono: "Kode Mono";
+  --Montserrat: "Montserrat";
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  width: 100vw;
+  height: 100vh;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--Kode-mono);
+}
+
+h1 {
+  color: var(--languid-lavender);
+  font-size: 3rem;
+}
+
+p {
+  font-family: var(--Montserrat);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
