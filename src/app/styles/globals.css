@@ -59,6 +59,11 @@ p {
   font-family: var(--Montserrat);
 }
 
+a {
+  font-family: var(--Montserrat);
+  color: var(--text-color);
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
