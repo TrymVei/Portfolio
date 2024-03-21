@@ -1,0 +1,23 @@
+.gitButton {
+  background-color: var(--russian-violet);
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.gitButton:hover {
+  background-color: var(--dark-violet);
+}
+
+.gitButton::before {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  content: "";
+  -webkit-mask: url("/img/icons/gitIcon.svg") no-repeat center;
+  -webkit-mask-size: cover;
+  background-color: white;
+}
