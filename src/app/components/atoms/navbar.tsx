@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="bg-darkViolet h-16 px-16 flex items-center">
-      <ul className="flex gap-6 *:text-xl">
+    <nav className="bg-darkPurple h-16 px-16 flex items-center">
+      <ul className="flex gap-6 *:text-xl [&>li>a:hover]:text-languidLavender ease-in-out">
         <li>
           <a href="#home">Hjem</a>
         </li>
