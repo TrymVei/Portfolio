@@ -1,6 +1,7 @@
 import About from "./components/atoms/about";
 import Experience from "./components/atoms/experience";
 import Hero from "./components/atoms/hero";
+import { Projects } from "./components/atoms/projects";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Experience />
       <About />
+      <Projects />
     </main>
   );
 };
